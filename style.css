@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(243, 169, 32, 0.184);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80vw;
+    background-color: black;
+    box-shadow: 0 0 15px 4px #888888;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    padding:1rem 0;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.quote{
+    /* height: 30vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.quote_text{
+    color: black;
+    word-wrap: break-word;
+    width: 50%;
+   text-align:center;
+}
+
+.imgAPJsir{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAPJsir img{
+    /* height: 100%; */
+    width: 52%;
+}
+
+.biography{
+    color: white;
+    margin: 2% 8%;
+} 
+
+.points h1{
+    margin: 0.2rem 0;
+}
+.points p{
+    margin: 0.8rem 0;
+}
+
+.honors ul{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+
+.points p{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 26px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
+
+.footer p{
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width :768px) {
+    .container{
+        width: 100vw;
+    }
+}
